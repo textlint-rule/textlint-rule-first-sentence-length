@@ -1,0 +1,41 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "name": "textlint-rule-first-sentence-length",
+  "version": "1.0.0",
+  "description": "textlint rule that limit maximum length of **First** sentence. ",
+  "main": "lib/textlint-rule-first-sentence-length.js",
+  "scripts": {
+    "test": "textlint-scripts test",
+    "prepublish": "npm run --if-present build",
+    "build": "textlint-scripts build",
+    "watch": "textlint-scripts build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/textlint-rule-first-sentence-length.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/textlint-rule-first-sentence-length/issues"
+  },
+  "homepage": "https://github.com/azu/textlint-rule-first-sentence-length",
+  "devDependencies": {
+    "textlint-scripts": "^1.2.2",
+    "textlint-tester": "^2.1.0"
+  },
+  "keywords": [
+    "textlintrule"
+  ],
+  "dependencies": {
+    "sentence-splitter": "^2.1.1",
+    "textlint-rule-helper": "^2.0.0",
+    "textlint-util-to-string": "^2.0.1"
+  }
+}
