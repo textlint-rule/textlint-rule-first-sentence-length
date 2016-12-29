@@ -4,6 +4,30 @@ textlint rule that limit maximum length of **First** sentence of the section.
 
 Related: [textlint-rule-sentence-length](https://github.com/azu/textlint-rule-sentence-length "textlint-rule-sentence-length")
 
+**OK**:
+
+```markdown
+# Title
+
+Short description.
+
+text text text.
+```
+
+**NG**:
+
+```markdown
+# Title
+
+Long Long Long Long description. <= Lint Error
+
+text text.
+
+## Section 2
+
+Long Long Long Long description. <= Lint Error
+```
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
