@@ -38,7 +38,8 @@ module.exports = function(context, options = {}) {
             const firstSentence = sentences[0];
             const sentenceText = firstSentence.value;
             // bigger than
-            if (sentenceText.length > maxLength) {
+            const sentenceLength = sentenceText.length;
+            if (sentenceLength > maxLength) {
                 const currentLine = node.loc.start.line;
                 const addedLine = isStartWithNewLine(sentenceText)
                     ? firstSentence.loc.start.line + 1// \n string

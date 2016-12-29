@@ -50,6 +50,14 @@ textlint --rule first-sentence-length README.md
 - [textlint-rule-sentence-length](https://github.com/azu/textlint-rule-sentence-length "textlint-rule-sentence-length")
     - lint each sentence length.
 
+## Reference
+
+> 書き出しの文は30字以下  
+>
+> 書き出しの長さは、文全体が一目で見られる目安として「30字」と定めました。興味を引き、一気に読んでもらえるかは、書き出し文の印象にかかっています。
+
+- [文書作成術 --- 文章を上品に磨く15の心得](http://www.motorwarp.com/koizumi/writingstyle01.html "文書作成術 --- 文章を上品に磨く15の心得")
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/textlint-rule-first-sentence-length/releases).
