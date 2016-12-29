@@ -1,6 +1,6 @@
 # textlint-rule-first-sentence-length
 
-textlint rule that limit maximum length of **First** sentence. 
+textlint rule that limit maximum length of **First** sentence of the section.
 
 Related: [textlint-rule-sentence-length](https://github.com/azu/textlint-rule-sentence-length "textlint-rule-sentence-length")
 
