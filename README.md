@@ -2,7 +2,7 @@
 
 textlint rule that limit maximum length of **First** sentence of the section.
 
-Related: [textlint-rule-sentence-length](https://github.com/azu/textlint-rule-sentence-length "textlint-rule-sentence-length")
+Related: [textlint-rule-sentence-length](https://github.com/textlint-rule/textlint-rule-sentence-length "textlint-rule-sentence-length")
 
 **OK**:
 
@@ -71,7 +71,7 @@ textlint --rule first-sentence-length README.md
 
 ## Related rule
 
-- [textlint-rule-sentence-length](https://github.com/azu/textlint-rule-sentence-length "textlint-rule-sentence-length")
+- [textlint-rule-sentence-length](https://github.com/textlint-rule/textlint-rule-sentence-length "textlint-rule-sentence-length")
     - lint each sentence length.
 
 ## Reference
@@ -84,7 +84,7 @@ textlint --rule first-sentence-length README.md
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/textlint-rule-first-sentence-length/releases).
+See [Releases page](https://github.com/textlint-rule/textlint-rule-first-sentence-length/releases).
 
 ## Running tests
 
@@ -96,7 +96,7 @@ Install devDependencies and Run `npm test`:
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/azu/textlint-rule-first-sentence-length/issues).
+For bugs and feature requests, [please create an issue](https://github.com/textlint-rule/textlint-rule-first-sentence-length/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
