@@ -9,7 +9,7 @@
     "src/"
   ],
   "name": "textlint-rule-first-sentence-length",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "textlint rule that limit maximum length of **First** sentence. ",
   "main": "lib/textlint-rule-first-sentence-length.js",
   "scripts": {
