@@ -2,7 +2,6 @@ import { splitAST, SentenceSplitterSyntax } from "sentence-splitter";
 import { StringSource } from "textlint-util-to-string";
 import { RuleHelper } from "textlint-rule-helper";
 import type { TextlintRuleModule } from "@textlint/types";
-import type { TxtParagraphNode } from "@textlint/ast-node-types";
 
 const defaultOptions = {
     max: 50
@@ -33,7 +32,7 @@ const report: TextlintRuleModule<Options> = function (context, options = {}) {
             if (!firstSentence) {
                 return;
             }
-            const firstSentenceSource = new StringSource(firstSentence as TxtParagraphNode);
+            const firstSentenceSource = new StringSource(firstSentence);
             const sentenceText = firstSentenceSource.toString();
             // bigger than
             const sentenceLength = sentenceText.length;

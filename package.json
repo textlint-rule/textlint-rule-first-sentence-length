@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/textlint-rule/textlint-rule-first-sentence-length",
   "devDependencies": {
-    "@textlint/ast-node-types": "^13.3.0",
     "@textlint/types": "^13.3.0",
     "textlint-scripts": "^13.3.0",
     "textlint-tester": "^13.3.0",
@@ -38,9 +37,9 @@
     "textlintrule"
   ],
   "dependencies": {
-    "sentence-splitter": "^4.0.2",
+    "sentence-splitter": "^4.1.0",
     "textlint-rule-helper": "^2.0.0",
-    "textlint-util-to-string": "^3.3.0"
+    "textlint-util-to-string": "^3.3.2"
   },
   "packageManager": "npm@9.3.1"
 }
