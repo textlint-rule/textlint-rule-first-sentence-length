@@ -28,7 +28,7 @@ It is long text."`,
                 {
                     message: `First sentence should be short.
                 
-The first sentence exceeds the maximum sentence length of 5.`,
+The first sentence exceeds the maximum sentence length of ${options.max}.`,
                     loc: {
                         start: {
                             line: 2,

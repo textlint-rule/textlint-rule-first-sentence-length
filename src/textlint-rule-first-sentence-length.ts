@@ -48,3 +48,4 @@ The first sentence exceeds the maximum sentence length of ${maxLength}.`, {
     }
 };
 export default report;
+
